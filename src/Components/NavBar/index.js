@@ -13,12 +13,12 @@ import {
   NavBtnLink,
 } from './styles';
 
-function NavBar() {
+function NavBar({ toggle }) {
   return (
     <Nav>
       <NavbarContainer>
         <NavLogo>dolla</NavLogo>
-        <MobileIcon>
+        <MobileIcon onClick={toggle}>
           <FaBars />
         </MobileIcon>
         <NavMenu>
