@@ -32,6 +32,5 @@ module.exports = {
     'react/prop-types': 'off',
     'no-param-reassign': 'off',
     'no-console': 'off',
-    'global-require': 'off',
   },
 };
