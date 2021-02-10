@@ -17,7 +17,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: 'discover',
+  id: 'services',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
